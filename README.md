@@ -1,3 +1,3 @@
 # NextJS Template
 
-1. NextUI + Supabase
+1. **NextUI + Supabase**
