@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
-import "./globals.css";
 import RootProvider from "@/components/root-provider";
 import { inter } from "@/lib/fonts";
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,9 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <RootProvider>
-          {children}
-        </RootProvider>
+        <RootProvider>{children}</RootProvider>
       </body>
     </html>
   );
